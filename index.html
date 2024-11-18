@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Digitech</title>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+	/* Little updates on the CSS Digitech*/
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to bottom, #fce0e0, #a75252);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .container {
+      max-width: 700px;
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      text-align: center;
+    }
+    .header {
+      padding: 10px;
+      border: 2px solid #dd1616;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .header h1 {
+      color: #9c0a0a;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      margin: 0;
+    }
+    .header h3 {
+      color: #555;
+      margin: 5px 0;
+    }
+    .header img {
+      margin-top: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .construction {
+      padding: 10px;
+      border: 2px dashed #d60808;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .construction h3 {
+      color: #b10303;
+      margin-bottom: 10px;
+    }
+    .construction img {
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    footer {
+      font-size: 14px;
+      color: #910101;
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+	<!-- Small changes on the design of the website (outdated)-->
+  <div class="container">
+    <div class="header">
+      <h1>Welcome to Digitech!</h1>
+	  <h3>Bringing Digital Technologies to an Analog World</h3>
+	  <img src="images/digitech.jpg" alt="Digitech Logo" width="250">
+      
+	  <!-- Name and student number added as normal text-->
+      <h3>Student Name: Joelma Rodrigues</h3>
+      <h3>Student Number: 2023246</h3>
+	  <!-- Using JavaScript to get the hostname-->
+      <h3>Server Name: <script>document.write(window.location.hostname);</script></h3>
+      
+    </div>
+    <div class="construction">
+      <h3>Site Under Construction</h3>
+      <img src="images/construction.jpg" alt="Under Construction" width="200">
+    </div>
+    <footer>© 2024 Digitech. All Rights Reserved.</footer>
+  </div>
+</body>
+</html>
